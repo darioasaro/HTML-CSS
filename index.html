@@ -6,17 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Dario Asaro Portfolio</title>
     <link rel="icon" type="image/png" href="imagenes/logo.png">
+    <link href="https://fonts.googleapis.com/css?family=Anaheim&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="css/style.css">
     
 </head>
 <body>
-    <header>
+    <header class="header">
         <div>
-            <figure>
+            <figure class="logo">
                 <img src="imagenes/logo.png" alt="logo de http://darioasaro.com.ar">
             </figure>
         </div>
-        <nav>
+        <nav class="menu">
             
             <ol>
                 <li>
@@ -29,35 +30,65 @@
             </ol>
         </nav>
     </header>
-    <section>
+    <section class="hero">
         <h1>
             Hola! soy <strong>Dario Asaro</strong> <br/> backend deveolper
         </h1>
-        <img src="imagenes/gotham1.jpeg"width="500" alt="Imagen principal">
+        <!-- <img src="imagenes/gotham1.jpeg"width="500" alt="Imagen principal"> -->
     </section>
-        <section>Seccion principal</section>
-        <section id="portafolio">
+     
+        <section id="portafolio" class="portafolio">
             <h2>Seccion portafolio</h2> 
-            <article>
-                <h3>Proyecto Javascript</h3>
-                <img src="imagenes/javascipt.png" width="200" alt="Logo javascript">
-                <h6>node js</h6> <img src="imagenes/node.png" width="150" alt="logo node">
-                <p> <small> <strong> Fecha :</strong>13/01/2020</small></p>
-                <p> <small> <strong>Puedes verlo en</strong>www.platzi.com/javascript</small></p>
+            <article class="proyecto">
+                <h3 class="proyecto_titulo">Proyecto Javascript</h3>
+                    <img class="proyecto_imagen" src="imagenes/javascipt.png" width="200" alt="Logo javascript">
+                <div class="proyecto_detalles">
+                    <p> <small> <strong> Fecha :</strong>13/01/2020</small></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed ipsum sed purus maximus imperdiet. Nunc sodales dui vitae euismod condimentum. Proin nibh orci, feugiat ac ligula a, mollis imperdiet diam. Suspendisse sit amet justo eu quam convallis faucibus. Vivamus sed interdum enim, ut eleifend felis. Duis eget enim id diam volutpat facilisis. Mauris ut accumsan leo. Nunc quis euismod diam. Duis lacinia nisi a nisl vehicula condimentum. </p>
+                    <p class="proyecto_url"> <small> <strong>Puedes verlo en</strong>www.platzi.com/javascript</small></p class="proyecto_url">
+                </div>
+                <figure>
+                    <h6 class="proyecto_curso">node js</h6> 
+                    <img class="proyecto_foto" src="imagenes/node.png" width="150" alt="logo node">
+                </figure>
+                
+                
+                
+               
+                
+                
+            </article>
+            <article class="proyecto">
+                <h3 class="proyecto_titulo">Proyecto Javascript 2 </h3>
+                    <img class="proyecto_imagen" src="imagenes/javascipt.png" width="200" alt="Logo javascript">
+                <div class="proyecto_detalles">
+                    <p> <small> <strong> Fecha :</strong>13/01/2020</small></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed ipsum sed purus maximus imperdiet. Nunc sodales dui vitae euismod condimentum. Proin nibh orci, feugiat ac ligula a, mollis imperdiet diam. Suspendisse sit amet justo eu quam convallis faucibus. Vivamus sed interdum enim, ut eleifend felis. Duis eget enim id diam volutpat facilisis. Mauris ut accumsan leo. Nunc quis euismod diam. Duis lacinia nisi a nisl vehicula condimentum. </p>
+                    <p class="proyecto_url"> <small> <strong>Puedes verlo en</strong>www.platzi.com/javascript</small></p class="proyecto_url">
+                </div>
+                <figure>
+                    <h6 class="proyecto_curso">node js</h6> 
+                    <img class="proyecto_foto" src="imagenes/node.png" width="150" alt="logo node">
+                </figure>
+                
+                
+                
+               
+                
                 
             </article>
         </section>
         
-        <section id="contacto">Contacto
+        <section id="contacto" class="contacto">Contacto
             
-            <form action="/suscripcion/">
+            <form action="/suscripcion/" class="form-email">
                 <label for="email">Dejanos tu Email:</label>
                 <input type="text" placeholder="@gmail.com" id="email" <br>
                 <input type="text" placeholder="Nombre"> <br>
                 <input type="submit" value="Enviar">
             </form>
         </section>
-        <footer>footer</footer>
+        <footer class="footer">footer</footer>
 
         
 </body>

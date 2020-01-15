@@ -21,10 +21,56 @@ header{
 /* .link */
 
 /* selector de id : #portafolio */
-header{
-    background-color: black;
-    color : yellow;
+.header{
+    background-color:rgb(8, 73, 43);
+    color :whitesmoke;
+}
+.header a{
+color: whitesmoke;
+text-decoration: none;    
 }
 body{
-    background-color:rgb(204, 204, 51) !important;
+    font-family: 'Anaheim', sans-serif;
+    background-color:rgba(116, 107, 107, 0.418);
+}
+
+h1{
+    color: whitesmoke;
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: normal;
+    letter-spacing: -0.2px;
+  
+}
+h1 strong{
+    color:rgb(148, 5, 5)
+}
+.proyecto{
+    /* border-top:10px solid red;
+    border-right:10px solid red;
+    border-left:10px solid red;
+    border-bottom:10px solid red; */
+    border-color: rgb(8, 73, 43);
+    border-width: 5px;
+    border-style: solid; 
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.proyecto_detalles{
+    width: 500px;
+    height: 200px;
+    margin: 0px auto;
+    pñaddin
+}
+.proyecto_foto{
+    width: 250px;
+   
+}
+.hero{
+    height: 300px;
+    background-image: url('../imagenes/code.jpeg');
+    background-color:rgb(8, 73, 43);
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
 }
