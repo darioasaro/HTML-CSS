@@ -1,0 +1,30 @@
+/* reglas
+selectores
+declaraciones
+proiedades
+valores */
+
+
+/* selector de etiqueta
+header{
+        background-color: black;
+    }
+    body{
+        background-color:rgb(204, 204, 51) !important;
+    }
+     */
+    
+
+/* selector descendente :body,header,div,nav,ol,li */
+
+/* ***selector de clase *** */
+/* .link */
+
+/* selector de id : #portafolio */
+header{
+    background-color: black;
+    color : yellow;
+}
+body{
+    background-color:rgb(204, 204, 51) !important;
+}
